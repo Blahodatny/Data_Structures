@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exam" />
+        <module name="hash_table" />
+        <module name="lab_maven" />
+        <module name="linear_ds" />
+        <module name="linked_list" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="behaviour-driven_testing" target="10" />
+      <module name="empirical_analysis" target="10" />
+      <module name="exam" target="1.5" />
+      <module name="hash_table" target="10" />
+      <module name="linear_ds" target="10" />
+      <module name="linked_list" target="10" />
+      <module name="maven" target="10" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
