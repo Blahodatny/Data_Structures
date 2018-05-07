@@ -1,6 +1,8 @@
 package queue;
 
-public class LinkedQueue {
+import java.util.stream.IntStream;
+
+class LinkedQueue {
     private SLNode head;
     private SLNode tail;
     private int size;
@@ -25,9 +27,7 @@ public class LinkedQueue {
 
     private boolean isCorrectData(String item) {
         if (item.equals("")) return false;
-        for (int i = 0; i < item.length(); i++)
-            if ("01234567".indexOf(item.charAt(i)) == -1) return false;
-        return true;
+        return IntStream.range(0, item.length()).noneMatch(i -> "01234567".indexOf(item.charAt(i)) == -1);
     }
 
     public boolean isEmpty() {

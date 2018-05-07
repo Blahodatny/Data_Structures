@@ -1,13 +1,14 @@
 package stack;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
-public class ArrayStack {
+class ArrayStack {
     private double[] stack;
     private final static int defaultCapacity = 2;
     private int top;
 
-    public boolean isEmpty() {
+    private boolean isEmpty() {
         return top == 0;
     }
 
@@ -39,7 +40,7 @@ public class ArrayStack {
         return stack[top - 1];
     }
 
-    public int size() {
+    private int size() {
         return top;
     }
 
@@ -52,10 +53,10 @@ public class ArrayStack {
         double[] numbers = {1, 2, 3, 4, 5.0, -32.2, 3.2, 56.7, -1, 2};
         stack.top();
         System.out.print("\nStack: ");
-        for (int i = 0; i < 2; i++) {
+        IntStream.range(0, 2).forEach(i -> {
             stack.push(numbers[i]);
             System.out.print(numbers[i] + " ");
-        }
+        });
 
         System.out.println("\nTop: " + stack.top());
         System.out.println("Size: " + stack.size());
@@ -65,10 +66,10 @@ public class ArrayStack {
         while (!stack.isEmpty()) stack.pop();
         System.out.println("\nisEmpty: " + stack.isEmpty());
         System.out.print("\nNewStack: ");
-        for (double number : numbers) {
+        Arrays.stream(numbers).forEach(number -> {
             stack.push(number);
             System.out.print(number + " ");
-        }
+        });
 
         System.out.println("\nSize: " + stack.size());
         System.out.println("SizeArray: " + stack.stack.length);

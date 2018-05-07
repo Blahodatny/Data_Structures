@@ -3,6 +3,10 @@ package hashtable;
 import interfaces.FigureSet;
 import rectangle.Rectangle;
 
+import java.util.Arrays;
+import java.util.Objects;
+import java.util.stream.IntStream;
+
 public class HashTable implements FigureSet {
 
     private Rectangle[] table;
@@ -42,11 +46,7 @@ public class HashTable implements FigureSet {
         int newSize = table.length + 16;
         this.table = new Rectangle[newSize];
         this.size = 0;
-        for (Rectangle rec : rectangle) {
-            if (rec != null) {
-                this.add(rec);
-            }
-        }
+        Arrays.stream(rectangle).filter(Objects::nonNull).forEach(this::add);
     }
 
     public boolean add(Rectangle rectangle) {
@@ -83,10 +83,11 @@ public class HashTable implements FigureSet {
     }
 
     public void print() {
-        for (int i = 0; i < table.length; i++)
+        IntStream.range(0, table.length).forEach(i -> {
             if (table[i] != null)
                 System.out.println(i + " || " + table[i].toString());
             else
                 System.out.println(i + " || The slot is empty!");
+        });
     }
 }

@@ -2,6 +2,9 @@ package queue;
 
 import interfaces.Queue;
 
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 public class ArrayQueue implements Queue {
     private int[] queue;
 
@@ -70,9 +73,6 @@ public class ArrayQueue implements Queue {
     }
 
     public String toString() {
-        StringBuilder res = new StringBuilder();
-        for (int i = head; i < tail; i++)
-            res.append(queue[i]).append(" ");
-        return res.toString();
+        return IntStream.range(head, tail).mapToObj(i -> queue[i] + " ").collect(Collectors.joining());
     }
 }

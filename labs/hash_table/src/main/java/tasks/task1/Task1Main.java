@@ -7,6 +7,7 @@ import tasks.ArrayOfFigures;
 
 import java.io.File;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.List;
 
 import static tasks.CSV.readCSV;
@@ -22,14 +23,11 @@ class Task1Main {
 
         if (!lines.isEmpty()) {
             Rectangle[] array = ArrayOfFigures.create(lines);
-            for (Rectangle f : array)
-                System.out.println(f.toString() + "\t" + Math.abs(f.hashCode() % NUM));
+            Arrays.stream(array).map(f -> f.toString() + "\t" + Math.abs(f.hashCode() % NUM)).forEach(System.out::println);
             System.out.println("\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
             FigureSet figures = new HashTable();
-            for (Rectangle f : array)
-                figures.add(f);
+            Arrays.stream(array).forEach(figures::add);
             figures.print();
-
         } else {
             System.out.println("Error: file  " + fileName + "   is empty");
             System.exit(0);

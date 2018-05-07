@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$//exam.iml" filepath="$PROJECT_DIR$//exam.iml" />
       <module fileurl="file://$PROJECT_DIR$/hash_table/hash_table.iml" filepath="$PROJECT_DIR$/hash_table/hash_table.iml" />
       <module fileurl="file://$PROJECT_DIR$/linear_ds/linear_ds.iml" filepath="$PROJECT_DIR$/linear_ds/linear_ds.iml" />
       <module fileurl="file://$PROJECT_DIR$/linked_list/linked_list.iml" filepath="$PROJECT_DIR$/linked_list/linked_list.iml" />

@@ -4,6 +4,7 @@ import interfaces.FigureSet;
 import rectangle.Rectangle;
 
 import java.awt.geom.Point2D;
+import java.util.stream.IntStream;
 
 public class OAHashTable implements FigureSet {
 
@@ -97,11 +98,12 @@ public class OAHashTable implements FigureSet {
     }
 
     public void print() {
-        for (int i = 0; i < table.length; i++)
+        IntStream.range(0, table.length).forEach(i -> {
             if (table[i] != null)
                 System.out.println(i + " || " + table[i].toString());
             else
                 System.out.println(i + " || The slot is empty!");
+        });
     }
 }
 
