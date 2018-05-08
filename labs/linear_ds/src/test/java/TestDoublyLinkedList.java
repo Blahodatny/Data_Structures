@@ -2,19 +2,20 @@ import list.DoublyLinkedList;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class TestDoublyLinkedList {
     @Test
     void testDoublyLinkedList() {
-        DoublyLinkedList list = new DoublyLinkedList();
+        var list = new DoublyLinkedList();
         ArrayList<Integer> testList = new ArrayList<>();
 
-        for (int i = 0; i < 10; i++) {
+        IntStream.range(0, 10).forEach(i -> {
             testList.add(i);
             list.add(i);
-        }
+        });
 
         assertArrayEquals(testList.stream().mapToInt(i -> i).toArray(), list.toArray());
 

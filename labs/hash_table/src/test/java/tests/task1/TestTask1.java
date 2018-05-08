@@ -15,9 +15,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class TestTask1 implements TestEmptyTable, TestAdding {
     @Test
     void testRehashRemove() {
-        HashTable table = new HashTable(5, 0.78);
-        final Random random = new Random();
-        for (; table.size() < 40; )
+        var table = new HashTable(5, 0.78);
+        final var random = new Random();
+        while (table.size() < 40)
             table.add(
                     new Rectangle(
                             new Point2D.Double(
@@ -31,7 +31,7 @@ class TestTask1 implements TestEmptyTable, TestAdding {
         assertFalse(table.contains(null));
         assertFalse(table.remove(null));
 
-        Rectangle rec = new Rectangle(
+        var rec = new Rectangle(
                 new Point2D.Double(444.4, 567.321),
                 new Point2D.Double(-56.34, 567.432));
         if (table.add(rec))

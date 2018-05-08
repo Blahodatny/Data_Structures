@@ -52,7 +52,7 @@ public class ArrayList implements List {
 
     public String remove(int index) {
         if (index < 0 || index >= this.size) return null;
-        String removed = this.list[index];
+        var removed = this.list[index];
         System.arraycopy(this.list, index + 1, this.list, index, this.size - 1 - index);
         this.list[this.size - 1] = null;
         this.size--;
@@ -61,7 +61,7 @@ public class ArrayList implements List {
 
     public boolean remove(String element) {
         if (isInValid(element)) return false;
-        int i = 0;
+        var i = 0;
         while (i < this.size) {
             if (this.list[i].equals(element)) {
                 System.arraycopy(this.list, i + 1, this.list, i, this.size - 1 - i);
@@ -81,7 +81,7 @@ public class ArrayList implements List {
 
     public String set(int index, String element) {
         if (isInValid(element) || index < 0 || index >= this.size) return null;
-        String set = this.list[index];
+        var set = this.list[index];
         this.list[index] = element;
         return set;
     }

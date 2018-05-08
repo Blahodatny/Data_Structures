@@ -7,11 +7,11 @@ public class SinglyLinkedList {
     private int size;
 
     public boolean add(int element) {
-        SLNode newNode = new SLNode(element);
+        var newNode = new SLNode(element);
         if (isEmpty())
             head = newNode;
         else {
-            SLNode node = getNode(size() - 1);
+            var node = getNode(size() - 1);
             assert node != null;
             node.next = newNode;
         }
@@ -27,8 +27,8 @@ public class SinglyLinkedList {
             size++;
             return true;
         }
-        SLNode newNode = new SLNode(element);
-        SLNode node = getNode(index - 1);
+        var newNode = new SLNode(element);
+        var node = getNode(index - 1);
         assert node != null;
         newNode.next = node.next;
         node.next = newNode;
@@ -40,13 +40,14 @@ public class SinglyLinkedList {
         if (inValidIndex(index))
             return EMPTY_ITEM;
         if (index == 0) {
-            int toRemove = head.data;
+            var toRemove = head.data;
             head = head.next;
             size--;
             return toRemove;
         }
-        SLNode node = getNode(index - 1);
-        SLNode delNode = node.next;
+        var node = getNode(index - 1);
+        assert node != null;
+        var delNode = node.next;
         node.next = delNode.next;
         size--;
         return delNode.data;
@@ -57,11 +58,11 @@ public class SinglyLinkedList {
         if (head.data == element)
             head = head.next;
         else {
-            SLNode cur = head;
+            var cur = head;
             while (cur.next != null && cur.next.data != element)
                 cur = cur.next;
             if (cur.next == null) return false;
-            SLNode node = cur.next;
+            var node = cur.next;
             cur.next = node.next;
         }
         size--;
@@ -71,7 +72,7 @@ public class SinglyLinkedList {
     public int get(int index) {
         if (inValidIndex(index))
             return EMPTY_ITEM;
-        SLNode node = getNode(index);
+        var node = getNode(index);
         assert node != null;
         return node.data;
     }
@@ -79,9 +80,9 @@ public class SinglyLinkedList {
     public int set(int index, int element) {
         if (inValidIndex(index))
             return EMPTY_ITEM;
-        SLNode node = getNode(index);
+        var node = getNode(index);
         assert node != null;
-        int toReturn = node.data;
+        var toReturn = node.data;
         node.data = element;
         return toReturn;
     }
@@ -97,8 +98,8 @@ public class SinglyLinkedList {
     private SLNode getNode(int index) {
         if (inValidIndex(index))
             return null;
-        SLNode cur = head;
-        for (int i = 0; i < index; i++)
+        var cur = head;
+        for (var i = 0; i < index; i++)
             cur = cur.next;
         return cur;
     }

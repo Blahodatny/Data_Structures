@@ -16,17 +16,17 @@ public interface TestRemove {
     default Collection<DynamicTest> remove() {
         return Collections.singletonList(
                 DynamicTest.dynamicTest("Test removing!!!", () -> {
-                    OAHashTable table = new OAHashTable(10);
-                    Rectangle rec1 = new Rectangle(
+                    var table = new OAHashTable(10);
+                    var rec1 = new Rectangle(
                             new Point2D.Double(4.33, 5.5),
                             new Point2D.Double(4.6, 78.6));
-                    Rectangle rec2 = new Rectangle(
+                    var rec2 = new Rectangle(
                             new Point2D.Double(4.5, -435.87),
                             new Point2D.Double(-12.2, -67.6));
-                    Rectangle rec3 = new Rectangle(
+                    var rec3 = new Rectangle(
                             new Point2D.Double(67.21, -98.12),
                             new Point2D.Double(32.76, 98.56));
-                    Rectangle rec4 = new Rectangle(
+                    var rec4 = new Rectangle(
                             new Point2D.Double(-45.5, -345.5),
                             new Point2D.Double(-56.9, -918.47));
 

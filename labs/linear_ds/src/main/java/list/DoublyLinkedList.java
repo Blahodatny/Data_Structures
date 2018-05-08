@@ -10,7 +10,7 @@ public class DoublyLinkedList {
     }
 
     public void add(int data) {
-        DLNode node = new DLNode(data);
+        var node = new DLNode(data);
         if (first == null)
             first = node;
         else {
@@ -24,9 +24,9 @@ public class DoublyLinkedList {
         if (index >= this.size() || index < 0)
             return false;
 
-        DLNode node = new DLNode(data);
-        int i = 0;
-        DLNode cur = first;
+        var node = new DLNode(data);
+        var i = 0;
+        var cur = first;
         while (i < index) {
             cur = cur.getNext();
             i++;
@@ -59,8 +59,8 @@ public class DoublyLinkedList {
             last = last.getPrev();
 
         } else {
-            int i = 0;
-            DLNode cur = first;
+            var i = 0;
+            var cur = first;
             while (i < index) {
                 cur = cur.getNext();
                 i++;
@@ -73,7 +73,7 @@ public class DoublyLinkedList {
     }
 
     public boolean remove(int data) {
-        DLNode cur = first;
+        var cur = first;
         while (cur != null && cur.getData() != data)
             cur = cur.getNext();
 
@@ -88,8 +88,8 @@ public class DoublyLinkedList {
     public int get(int index) {
         if (index >= size() || index < 0) return 0;
 
-        int i = 0;
-        DLNode cur = first;
+        var i = 0;
+        var cur = first;
         while (i < index) {
             cur = cur.getNext();
             i++;
@@ -99,8 +99,8 @@ public class DoublyLinkedList {
 
     public int set(int index, int data) {
         if (index >= size() || index < 0) return 0;
-        int i = 0;
-        DLNode cur = first;
+        var i = 0;
+        var cur = first;
         while (i < index) {
             cur = cur.getNext();
             i++;
@@ -111,8 +111,8 @@ public class DoublyLinkedList {
 
 
     public int size() {
-        int size = 0;
-        DLNode cur = first;
+        var size = 0;
+        var cur = first;
         while (cur != null) {
             cur = cur.getNext();
             size++;
@@ -125,8 +125,8 @@ public class DoublyLinkedList {
     }
 
     public String toString() {
-        StringBuilder res = new StringBuilder();
-        DLNode cur = first;
+        var res = new StringBuilder();
+        var cur = first;
         while (cur != null) {
             res.append(cur.getData()).append(" ");
             cur = cur.getNext();
@@ -135,9 +135,9 @@ public class DoublyLinkedList {
     }
 
     public int[] toArray() {
-        int[] arr = new int[size()];
-        int i = 0;
-        DLNode cur = first;
+        var arr = new int[size()];
+        var i = 0;
+        var cur = first;
         while (cur != null) {
             arr[i] = cur.getData();
             cur = cur.getNext();

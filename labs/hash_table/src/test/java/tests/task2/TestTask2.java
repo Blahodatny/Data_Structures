@@ -16,11 +16,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class TestTask2 implements TestEmptyTable, TestAdding, TestRehash, TestRemove {
     @Test
     void testContains() {
-        OAHashTable table = new OAHashTable(10);
-        Rectangle rec1 = new Rectangle(new Point2D.Double(-465.34, 0.7), new Point2D.Double(46.32, -0.7));
-        Rectangle rec2 = new Rectangle(new Point2D.Double(-8.67, -45.87), new Point2D.Double(-12.2, -445.6));
-        Rectangle rec3 = new Rectangle(new Point2D.Double(67.21, -96.6), new Point2D.Double(576.465, 78));
-        Rectangle rec4 = new Rectangle(new Point2D.Double(56, -34.5), new Point2D.Double(-5.9, -9.47));
+        var table = new OAHashTable(10);
+        var rec1 = new Rectangle(new Point2D.Double(-465.34, 0.7), new Point2D.Double(46.32, -0.7));
+        var rec2 = new Rectangle(new Point2D.Double(-8.67, -45.87), new Point2D.Double(-12.2, -445.6));
+        var rec3 = new Rectangle(new Point2D.Double(67.21, -96.6), new Point2D.Double(576.465, 78));
+        var rec4 = new Rectangle(new Point2D.Double(56, -34.5), new Point2D.Double(-5.9, -9.47));
 
         assertTrue(table.add(rec1));
         assertTrue(table.add(rec2));

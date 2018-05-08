@@ -1,11 +1,9 @@
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 class FileAssistant {
     private String inputFile = null;
@@ -32,12 +30,11 @@ class FileAssistant {
     }
 
     boolean readFile() {
-        Path path = Paths.get(inputFile);
+        var path = Paths.get(inputFile);
         if (Files.exists(path) && Files.isReadable(path)) {
             try {
-                List<String> contents = Files.readAllLines(path, StandardCharsets.UTF_8);
-                for (String line : contents)
-                    tokens.addAll(Arrays.asList(line.split("[ ]+")));
+                var contents = Files.readAllLines(path, StandardCharsets.UTF_8);
+                contents.forEach(line -> tokens.addAll(Arrays.asList(line.split("[ ]+"))));
 
             } catch (IOException e) {
                 System.err.println("ERROR: read file error ");
@@ -55,7 +52,7 @@ class FileAssistant {
     }
 
     private String getNextWord() {
-        String emptyString = "";
+        var emptyString = "";
         if (tokens.size() == 0) {
             System.err.println("ERROR: File  " + Paths.get(inputFile).getFileName() + "  is empty");
             return emptyString;
@@ -70,12 +67,12 @@ class FileAssistant {
     }
 
     int readNextInt() {
-        int errorCode = 404;
+        var errorCode = 404;
         if (tokens.size() == 0) {
             System.err.println("ERROR:File  " + Paths.get(inputFile).getFileName() + "  is empty");
             return errorCode;
         }
-        String token = getNextWord();
+        var token = getNextWord();
         while (!isEmpty(token)) {
             try {
                 return Integer.parseInt(token);

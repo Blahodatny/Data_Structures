@@ -16,12 +16,12 @@ public interface TestEmptyTable {
     default Collection<DynamicTest> emptyTable() {
         return Collections.singletonList(
                 DynamicTest.dynamicTest("Testing empty table!!!", () -> {
-                    OAHashTable tableEmpty = new OAHashTable(3);
+                    var tableEmpty = new OAHashTable(3);
 
                     assertEquals(0, tableEmpty.size());
                     assertTrue(tableEmpty.isEmpty());
 
-                    Rectangle rectangle = new Rectangle(
+                    var rectangle = new Rectangle(
                             new Point2D.Double(45.4, 567.6),
                             new Point2D.Double(576.354, 13.45));
 

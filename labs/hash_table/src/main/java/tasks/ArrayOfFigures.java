@@ -10,9 +10,9 @@ public class ArrayOfFigures {
     private static final int QUANTITY = 4;
 
     public static Rectangle[] create(List<String[]> list) {
-        int num = 0;
-        Rectangle[] arr = new Rectangle[list.size()];
-        for (String[] line : list)
+        var num = 0;
+        var arr = new Rectangle[list.size()];
+        for (var line : list)
             if (writeRectangleInfo(line) != null) {
                 arr[num] = writeRectangleInfo(line);
                 num++;
@@ -48,7 +48,7 @@ public class ArrayOfFigures {
     }
 
     private static Rectangle[] copyOf(Rectangle[] array, int num) {
-        Rectangle[] rec = new Rectangle[num];
+        var rec = new Rectangle[num];
         System.arraycopy(array, 0, rec, 0, num);
         return rec;
     }

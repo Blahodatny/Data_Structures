@@ -44,11 +44,11 @@ public class OAHashTable implements FigureSet {
     public boolean add(Rectangle rectangle) {
         if (rectangle != null && !contains(rectangle)) {
 
-            int hash = hash(rectangle);
-            int hashCode = Math.abs(rectangle.hashCode() / 7);
+            var hash = hash(rectangle);
+            var hashCode = Math.abs(rectangle.hashCode() / 7);
 
-            for (int i = 0; i != table.length; i++) {
-                int index = (hash + i * hashCode) % table.length;
+            for (var i = 0; i != table.length; i++) {
+                var index = (hash + i * hashCode) % table.length;
                 if (table[index] == DELL || table[index] == null) {
                     this.table[index] = rectangle;
                     this.size++;
@@ -63,11 +63,11 @@ public class OAHashTable implements FigureSet {
     public boolean contains(Rectangle rectangle) {
         if (rectangle == null) return false;
 
-        int hash = hash(rectangle);
-        int hashCode = Math.abs(rectangle.hashCode() / 7);
-        int index = hash;
+        var hash = hash(rectangle);
+        var hashCode = Math.abs(rectangle.hashCode() / 7);
+        var index = hash;
 
-        for (int i = 0; table[index] != null && i != table.length; i++) {
+        for (var i = 0; table[index] != null && i != table.length; i++) {
             index = (hash + i * hashCode) % table.length;
             if (rectangle.equals(table[index]))
                 return true;
@@ -78,11 +78,11 @@ public class OAHashTable implements FigureSet {
     public boolean remove(Rectangle rectangle) {
         if (rectangle == null || !contains(rectangle)) return false;
 
-        int hash = hash(rectangle);
-        int hashCode = Math.abs(rectangle.hashCode() / 7);
-        int index = hash;
+        var hash = hash(rectangle);
+        var hashCode = Math.abs(rectangle.hashCode() / 7);
+        var index = hash;
 
-        for (int i = 0; i != table.length && table[index] != null; i++) {
+        for (var i = 0; i != table.length && table[index] != null; i++) {
             index = (hash + i * hashCode) % table.length;
             if (table[index].equals(rectangle)) {
                 this.table[index] = DELL;
@@ -116,9 +116,7 @@ class DelRectangle extends Rectangle {
     }
 
     static DelRectangle getInstance() {
-        if (delRectangle == null) {
-            delRectangle = new DelRectangle();
-        }
+        if (delRectangle == null) delRectangle = new DelRectangle();
         return delRectangle;
     }
 

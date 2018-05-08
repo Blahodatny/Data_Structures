@@ -42,8 +42,8 @@ public class HashTable implements FigureSet {
     }
 
     void rehash() {
-        Rectangle[] rectangle = table;
-        int newSize = table.length + 16;
+        var rectangle = table;
+        var newSize = table.length + 16;
         this.table = new Rectangle[newSize];
         this.size = 0;
         Arrays.stream(rectangle).filter(Objects::nonNull).forEach(this::add);
@@ -51,7 +51,7 @@ public class HashTable implements FigureSet {
 
     public boolean add(Rectangle rectangle) {
         if (rectangle != null) {
-            int index = hash(rectangle);
+            var index = hash(rectangle);
             if (table[index] == null) {
                 this.table[index] = rectangle;
                 this.size++;
@@ -64,7 +64,7 @@ public class HashTable implements FigureSet {
 
     public boolean contains(Rectangle rectangle) {
         if (rectangle == null) return false;
-        int index = hash(rectangle);
+        var index = hash(rectangle);
         return (table[index] != null && table[index].equals(rectangle));
     }
 

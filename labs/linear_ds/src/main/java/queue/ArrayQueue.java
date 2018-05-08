@@ -29,10 +29,10 @@ public class ArrayQueue implements Queue {
     }
 
     public boolean enqueue(int e) {
-        boolean didChange = false;
+        var didChange = false;
         if (length >= capacity) {
             capacity += 20;
-            int[] tmp = new int[capacity];
+            var tmp = new int[capacity];
             System.arraycopy(queue, head, tmp, 0, length);
             queue = tmp;
             head = 0;

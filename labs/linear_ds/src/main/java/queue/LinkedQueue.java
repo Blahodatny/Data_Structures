@@ -14,7 +14,7 @@ class LinkedQueue {
 
     private boolean enqueue(String item) {
         if (!isCorrectData(item)) return false;
-        SLNode newNode = new SLNode(item);
+        var newNode = new SLNode(item);
         if (isEmpty())
             head = tail = newNode;
         else {
@@ -57,14 +57,14 @@ class LinkedQueue {
     }
 
     public static void main(String[] args) {
-        LinkedQueue queue = new LinkedQueue();
+        var queue = new LinkedQueue();
         String[] numbers = {"8", "17", "-32", "360", "77", "7.7", "100", "24", ""};
         System.out.println("Queue: ");
         System.out.println("Head: " + queue.head());
         System.out.println("Size: " + queue.size());
         System.out.println("isEmpty: " + queue.isEmpty());
         System.out.print("\nQueue: ");
-        for (String number : numbers)
+        for (var number : numbers)
             if (queue.enqueue(number))
                 System.out.print(number + " ");
         System.out.println("\nHead: " + queue.head());

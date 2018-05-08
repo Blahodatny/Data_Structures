@@ -2,16 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490edf00-33e3-45ec-a5b4-a041dea254b3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/hashtable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/hashtable/HashTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/hashtable/OAHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/hashtable/OAHashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/tasks/ArrayOfFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/tasks/ArrayOfFigures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/tasks/task1/Task1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/tasks/task1/Task1Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/tasks/task2/Task2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/tasks/task2/Task2Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/TestTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/TestTask1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/dynamic/TestAdding.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/dynamic/TestAdding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/dynamic/TestEmptyTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/dynamic/TestEmptyTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/TestTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/TestTask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestAdding.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestAdding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestEmptyTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestEmptyTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestRehash.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestRehash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/deque/ArrayDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/deque/ArrayDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/list/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/list/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/list/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/list/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/list/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/queue/ArrayQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/queue/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/queue/LinkedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/stack/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/stack/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/stack/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_ds/src/test/java/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/test/java/TestArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_ds/src/test/java/TestArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/test/java/TestArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_ds/src/test/java/TestDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/test/java/TestDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_ds/src/test/java/TestLinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/test/java/TestLinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list/src/main/java/FileAssistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/src/main/java/FileAssistant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list/src/main/java/list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/src/main/java/list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list/src/test/java/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/src/test/java/TestLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/lab_maven/target/" />
     <ignored path="$PROJECT_DIR$/maven/target/" />
@@ -51,11 +74,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileAssistant.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileAssistant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/FileAssistant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1794">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linked_list/src/test/java/TestLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1352">
+              <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/list/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="156" column="29" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DLNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/node/DLNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SLNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/node/SLNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -83,28 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/linear_ds/src/main/java/list/ArrayList.java" />
-        <option value="$PROJECT_DIR$/linear_ds/src/main/java/list/DoublyLinkedList.java" />
-        <option value="$PROJECT_DIR$/linear_ds/src/main/java/stack/LinkedStack.java" />
-        <option value="$PROJECT_DIR$/linear_ds/pom.xml" />
-        <option value="$PROJECT_DIR$/linked_list/pom.xml" />
-        <option value="$PROJECT_DIR$/parametrized_tests/src/main/FSM/StateFSM.java" />
-        <option value="$PROJECT_DIR$/parametrized_tests/src/main/FSM/SwitchFSM.java" />
-        <option value="$PROJECT_DIR$/parametrized_tests/src/main/FSM/TransTableFSM.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/creational/builder/builders/CarBuilder.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/creational/builder/builders/CarManualBuilder.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/creational/prototype/student/Deanery.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/creational/prototype/student/Polyclinic.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/creational/prototype/student/Student.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/creational/singleton/SingletonCheck.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/structural/flyweight/FlyweightCheck.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/structural/proxy/java/example/proxy/YouTubeCacheProxy.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/structural/Main.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/IDocument.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/order/BringInOrder.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/factories/FirmFactory.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/permit/PermanentPermit.java" />
-        <option value="$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/factories/PermanentBringIn.java" />
         <option value="$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/factories/PermanentBringOut.java" />
         <option value="$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/permit/TemporaryPermit.java" />
         <option value="$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/factories/TemporaryBringIn.java" />
@@ -130,10 +176,32 @@
         <option value="$PROJECT_DIR$/hash_table/src/main/java/hashtable/OAHashTable.java" />
         <option value="$PROJECT_DIR$/hash_table/src/main/java/tasks/task1/Task1Main.java" />
         <option value="$PROJECT_DIR$/hash_table/src/main/java/tasks/task2/Task2Main.java" />
+        <option value="$PROJECT_DIR$/hash_table/src/main/java/tasks/ArrayOfFigures.java" />
+        <option value="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/TestTask1.java" />
+        <option value="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/dynamic/TestAdding.java" />
+        <option value="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/dynamic/TestEmptyTable.java" />
+        <option value="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestAdding.java" />
+        <option value="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestEmptyTable.java" />
+        <option value="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestRehash.java" />
+        <option value="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestRemove.java" />
+        <option value="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/TestTask2.java" />
         <option value="$PROJECT_DIR$/linear_ds/src/main/java/deque/ArrayDeque.java" />
+        <option value="$PROJECT_DIR$/linear_ds/src/main/java/list/ArrayList.java" />
+        <option value="$PROJECT_DIR$/linear_ds/src/main/java/list/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/linear_ds/src/main/java/list/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/linear_ds/src/main/java/queue/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/linear_ds/src/main/java/queue/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/linear_ds/src/main/java/stack/ArrayStack.java" />
+        <option value="$PROJECT_DIR$/linear_ds/src/main/java/stack/LinkedStack.java" />
+        <option value="$PROJECT_DIR$/linear_ds/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/linear_ds/src/test/java/TestArrayList.java" />
+        <option value="$PROJECT_DIR$/linear_ds/src/test/java/TestArrayQueue.java" />
+        <option value="$PROJECT_DIR$/linear_ds/src/test/java/TestDoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/linear_ds/src/test/java/TestLinkedStack.java" />
+        <option value="$PROJECT_DIR$/linked_list/src/main/java/list/LinkedList.java" />
+        <option value="$PROJECT_DIR$/linked_list/src/main/java/FileAssistant.java" />
+        <option value="$PROJECT_DIR$/linked_list/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/linked_list/src/test/java/TestLinkedList.java" />
       </list>
     </option>
   </component>
@@ -161,11 +229,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="linked_list" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="linear_ds" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="linked_list" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="linear_ds" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -185,46 +253,67 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linear_ds" type="462c0819:PsiDirectoryNode" />
+              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linear_ds" type="462c0819:PsiDirectoryNode" />
+              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linear_ds" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linear_ds" type="462c0819:PsiDirectoryNode" />
+              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linear_ds" type="462c0819:PsiDirectoryNode" />
+              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,7 +353,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Derby (Embedded)" />
     <property name="jdk.selected.JAVA_MODULE" value="9.0" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Fundamentals_of_Programming_Technologies/module_testing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -299,51 +388,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayStack">
-    <configuration name="ArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.ArrayStack" />
-      <module name="linear_ds" />
+  <component name="RunManager" selected="JUnit.TestLinkedList">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="linked_list" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LinkedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.LinkedQueue" />
-      <module name="linear_ds" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Task1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.task1.Task1Main" />
-      <module name="hash_table" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tasks.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestArrayQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linear_ds" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestArrayList" />
+      <option name="MAIN_CLASS_NAME" value="TestArrayQueue" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestDoublyLinkedList.testDoublyLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linear_ds" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDoublyLinkedList" />
+      <option name="METHOD_NAME" value="testDoublyLinkedList" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -359,6 +437,23 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestLinkedStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linear_ds" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLinkedStack" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -409,19 +504,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestArrayList" />
+      <item itemvalue="JUnit.TestArrayQueue" />
+      <item itemvalue="JUnit.TestLinkedStack" />
+      <item itemvalue="JUnit.TestDoublyLinkedList.testDoublyLinkedList" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="JUnit.TestLinkedList" />
-      <item itemvalue="Application.Task1Main" />
-      <item itemvalue="Application.LinkedQueue" />
-      <item itemvalue="Application.ArrayStack" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayStack" />
-        <item itemvalue="Application.LinkedQueue" />
-        <item itemvalue="Application.Task1Main" />
         <item itemvalue="JUnit.TestLinkedList" />
-        <item itemvalue="JUnit.TestArrayList" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.TestDoublyLinkedList.testDoublyLinkedList" />
+        <item itemvalue="JUnit.TestLinkedStack" />
+        <item itemvalue="JUnit.TestArrayQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -491,28 +586,11 @@
       <workItem from="1525469132468" duration="635000" />
       <workItem from="1525476579061" duration="1553000" />
       <workItem from="1525684634403" duration="1092000" />
+      <workItem from="1525802506890" duration="1434000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Storage - 2018.05.02 at 18h 57m 45s.xml">
-      <configuration name="Storage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Storage - 2018.05.02 at 18h 58m 02s.xml">
-      <configuration name="Storage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Storage - 2018.05.02 at 19h 01m 15s.xml">
-      <configuration name="Storage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMatrix - 2018.05.02 at 19h 03m 50s.xml">
-      <configuration name="TestMatrix" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Storage - 2018.05.02 at 19h 17m 21s.xml">
-      <configuration name="Storage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTask1 - 2018.05.02 at 19h 36m 49s.xml">
-      <configuration name="TestTask1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestArrayList - 2018.05.02 at 19h 42m 05s.xml">
       <configuration name="TestArrayList" configurationId="JUnit" />
     </history-entry>
@@ -525,9 +603,27 @@
     <history-entry file="TestFSM - 2018.05.02 at 19h 52m 19s.xml">
       <configuration name="TestFSM" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestTask1 - 2018.05.08 at 21h 06m 14s.xml">
+      <configuration name="TestTask1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTask2 - 2018.05.08 at 21h 07m 54s.xml">
+      <configuration name="TestTask2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArrayList - 2018.05.08 at 21h 18m 25s.xml">
+      <configuration name="TestArrayList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArrayQueue - 2018.05.08 at 21h 18m 31s.xml">
+      <configuration name="TestArrayQueue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLinkedStack - 2018.05.08 at 21h 19m 07s.xml">
+      <configuration name="TestLinkedStack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDoublyLinkedList_testDoublyLinkedList - 2018.05.08 at 21h 19m 12s.xml">
+      <configuration name="TestDoublyLinkedList.testDoublyLinkedList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265364000" />
+    <option name="totallyTimeSpent" value="266798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,11 +636,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="7" weight="0.22645503" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="7" visible="true" weight="0.10885417" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.10885417" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
@@ -560,9 +657,9 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1936508" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14603175" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994709" visible="true" weight="0.12916666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994709" visible="true" weight="0.12916666" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5005291" side_tool="true" weight="0.12916666" />
@@ -582,24 +679,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/singleton/SingletonCheck.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/singleton/SingletonEverydayExample.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/Pattern.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/app/Firm.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/AbstractFactoryExample.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/AbstractFactoryCheck.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/permit/DisposablePermit.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/permit/PermanentPermit.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/permit/TemporaryPermit.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/order/BringOutOrder.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/order/BringInOrder.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/factories/in/DisposableBringIn.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/factories/in/PermanentBringIn.java" />
-    <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/factories/in/TemporaryBringIn.java" />
     <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/factories/out/DisposableBringOut.java" />
     <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/factories/out/PermanentBringOut.java" />
     <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/abstract_factory/factories/out/TemporaryBringOut.java" />
@@ -608,76 +691,10 @@
     <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/factory_method/FactoryMethodExample.java" />
     <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/factory_method/FactoryMethodCheck.java" />
     <entry file="file://$PROJECT_DIR$/patterns/src/patterns/creational/Main.java" />
-    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/hashtable/HashTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/hashtable/OAHashTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2886">
-          <caret line="121" column="28" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/interfaces/FigureSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/rectangle/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/tasks/task1/Task1Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/tasks/task2/Task2Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/tasks/ArrayOfFigures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1222">
-          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/tasks/CSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/interfaces/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/interfaces/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -695,10 +712,184 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/hashtable/HashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/hashtable/OAHashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1863">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/tasks/task1/Task1Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/tasks/task2/Task2Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/rectangle/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/tasks/ArrayOfFigures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/main/java/tasks/CSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/test/java/tests/task1/dynamic/TestEmptyTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/test/java/tests/task1/dynamic/TestAdding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/test/java/tests/task1/TestTask1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestEmptyTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestRehash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestRemove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/test/java/tests/task2/TestTask2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestAdding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/deque/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/interfaces/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/interfaces/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/list/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        <state relative-caret-position="338">
+          <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/list/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3640">
+          <caret line="142" column="32" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/list/SinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/list/SLNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/queue/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/queue/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/queue/SLNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -709,45 +900,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/list/DoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3145">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/list/SinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/list/SLNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/deque/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/queue/LinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/stack/ArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="1118">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -756,8 +912,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/stack/LinkedStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="377">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -768,27 +924,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/queue/ArrayQueue.java">
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="416">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linear_ds/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/test/java/TestArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="1534">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/test/java/TestArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/test/java/TestLinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear_ds/src/test/java/TestDoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/list/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3606">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="390">
+          <caret line="156" column="29" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -806,17 +980,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/FileAssistant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1794">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_list/src/test/java/TestLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1352">
+          <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
         </state>
       </provider>
     </entry>

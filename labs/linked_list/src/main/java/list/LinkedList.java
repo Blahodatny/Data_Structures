@@ -37,8 +37,8 @@ public class LinkedList {
     public String get(int index) {
         if (index >= this.size() || index < 0) return null;
         else if (index == 0) return data;
-        LinkedList head = this;
-        int var = 0;
+        var head = this;
+        var var = 0;
         while (var != index) {
             head = head.next;
             var++;
@@ -49,37 +49,35 @@ public class LinkedList {
     public String set(String e) {
         if (isInValid(e))
             return null;
-        String temp = data;
+        var temp = data;
         data = e;
         return temp;
     }
 
     public String set(int index, String e) {
         if (isInValid(e) || index >= this.size() || index < 0) return null;
-        if (this.isEmpty()) {
-            if (index == 0) return this.set(e);
-            else return null;
-        }
+        if (this.isEmpty())
+            return index == 0 ? this.set(e) : null;
 
         if (index == 0) {
-            String temp = data;
+            var temp = data;
             data = e;
             return temp;
         }
-        LinkedList head = this;
-        int var = 0;
+        var head = this;
+        var var = 0;
         while (var != index) {
             head = head.next;
             var++;
         }
-        String temp = head.data;
+        var temp = head.data;
         head.data = e;
         return temp;
     }
 
     public int size() {
-        LinkedList head = this;
-        int var = 0;
+        var head = this;
+        var var = 0;
         while (head != null) {
             var++;
             head = head.next;
@@ -89,7 +87,7 @@ public class LinkedList {
 
     public boolean add(String e) {
         if (isInValid(e)) return false;
-        LinkedList head = this;
+        var head = this;
 
         if (head.isEmpty()) {
             head = new LinkedList(e);
@@ -104,21 +102,19 @@ public class LinkedList {
 
     public boolean add(int index, String e) {
         if (isInValid(e) || index >= this.size() || index < 0) return false;
-        if (this.isEmpty()) {
-            if (index == 0) return this.add(e);
-            else return false;
-        }
+        if (this.isEmpty())
+            return index == 0 && this.add(e);
 
         if (index == 0) {
-            LinkedList node = new LinkedList(this.set(e));
+            var node = new LinkedList(this.set(e));
             node.next = this.next;
             this.next = node;
             return true;
         }
 
-        LinkedList head = this;
-        LinkedList node = new LinkedList(e);
-        int number = 0;
+        var head = this;
+        var node = new LinkedList(e);
+        var number = 0;
         while (number != index - 1) {
             head = head.next;
             number++;
@@ -130,26 +126,26 @@ public class LinkedList {
 
     public String remove(int index) {
         if (index >= this.size() || index < 0) return null;
-        String temp = "";
+        var temp = "";
         if (index == 0)
             temp = this.set(this.next.get());
 
-        LinkedList head = this;
-        int number = 0;
+        var head = this;
+        var number = 0;
         while (number != index - 1 && index != 0) {
             head = head.next;
             number++;
         }
 
         if (index != 0) temp = head.next.data;
-        LinkedList node = head.next;
+        var node = head.next;
         head.next = node.next;
         node.next = null;
         return temp;
     }
 
     public boolean remove(String e) {
-        LinkedList head = this;
+        var head = this;
         if (this.data.equals(e)) this.set(this.next.get());
         else {
             assert head.next != null;
@@ -158,7 +154,7 @@ public class LinkedList {
                 if (head.next == null && !head.data.equals(e)) return false;
             }
         }
-        LinkedList node = head.next;
+        var node = head.next;
         assert head.next != null;
         head.next = head.next.next;
         node.next = null;

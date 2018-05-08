@@ -7,16 +7,16 @@ class Main {
     private static DLNode firstList = null;
 
     public static void main(String[] args) {
-        FileAssistant fa = new FileAssistant();
+        var fa = new FileAssistant();
         fa.setFileName(currentDir, fileName);
 
         if (fa.readFile()) {
             System.out.println("Start reading a file: ");
-            int number = fa.readNextInt();
+            var number = fa.readNextInt();
 
             while (number != FileAssistant.ERROR_CODE) {
                 System.out.printf("%5d", number);
-                DLNode node = createDLNode(number);
+                var node = createDLNode(number);
                 firstList = addNode(firstList, node);
                 number = fa.readNextInt();
             }
@@ -31,7 +31,7 @@ class Main {
         System.out.printf("Size = %d\n", size(firstList));
         printList(firstList);
 
-        SLNode secondList = createSecondList(firstList);
+        var secondList = createSecondList(firstList);
         System.out.println("\nTHE SECOND LIST:");
         System.out.printf("Size = %d\n", size(secondList));
         printList(secondList);
@@ -42,14 +42,14 @@ class Main {
     }
 
     private static SLNode createSLNode(int data) {
-        SLNode newNode = new SLNode();
+        var newNode = new SLNode();
         newNode.data = data;
         newNode.next = null;
         return newNode;
     }
 
     private static DLNode createDLNode(int data) {
-        DLNode newNode = new DLNode();
+        var newNode = new DLNode();
         newNode.data = data;
         newNode.next = null;
         newNode.prev = null;
@@ -60,7 +60,7 @@ class Main {
         if (head == null)
             head = addFirst(head, node);
         else {
-            DLNode tail = head;
+            var tail = head;
             if (tail.next != null)
                 while (tail.next != null)
                     tail = tail.next;
@@ -88,16 +88,14 @@ class Main {
     private static SLNode addNode(SLNode head, SLNode node) {
         if (head == null)
             head = node;
-        else {
-            if (node.data % 2 == 1) {
-                SLNode cur = head;
-                while (cur.next != null)
-                    cur = cur.next;
-                cur.next = node;
-            } else {
-                node.next = head;
-                head = node;
-            }
+        else if (node.data % 2 == 1) {
+            var cur = head;
+            while (cur.next != null)
+                cur = cur.next;
+            cur.next = node;
+        } else {
+            node.next = head;
+            head = node;
         }
         return head;
     }
@@ -127,7 +125,7 @@ class Main {
     }
 
     private static int size(SLNode list) {
-        int count = 0;
+        var count = 0;
         while (list != null) {
             count++;
             list = list.next;
@@ -136,7 +134,7 @@ class Main {
     }
 
     private static int size(DLNode list) {
-        int count = 0;
+        var count = 0;
         while (list != null) {
             count++;
             list = list.next;
@@ -149,10 +147,10 @@ class Main {
         if (dlHead == null)
             System.out.println("The list is empty!");
         else {
-            DLNode cur = dlHead;
+            var cur = dlHead;
             while (cur != null) {
                 if (cur.data >= -5 && cur.data <= 5) {
-                    SLNode node = createSLNode(cur.data);
+                    var node = createSLNode(cur.data);
                     firstList = addNode(firstList, node);
                     dlHead = deleteNode(dlHead, cur);
                 }

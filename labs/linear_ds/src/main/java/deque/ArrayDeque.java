@@ -20,7 +20,7 @@ public class ArrayDeque implements Deque {
         if (size() == this.capacity - 1)
             this.capacity *= 2;
 
-        int[] B = new int[this.capacity];
+        var B = new int[this.capacity];
         System.arraycopy(this.queue, 0, B, 0, size() - 1);
         this.queue = B;
 
@@ -50,23 +50,22 @@ public class ArrayDeque implements Deque {
 
         if (capacity >= 8 && size() < capacity / 4)
             capacity /= 2;
-        int[] B = new int[capacity];
+        var B = new int[capacity];
         System.arraycopy(queue, 1, B, 0, size() - 1);
         queue = B;
         return queue[head];
     }
 
     public int removeLast() {
-        if (size() == 0) {
+        if (size() == 0)
             try {
                 throw new Exception("Deque is empty.");
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        }
         if (capacity >= 8 && size() < capacity / 4)
             capacity /= 2;
-        int[] B = new int[capacity];
+        var B = new int[capacity];
         System.arraycopy(queue, head, B, head, size() - 1 - head);
         queue = B;
         tail--;

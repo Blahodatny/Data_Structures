@@ -22,7 +22,7 @@ class ArrayStack {
             return -1;
         }
 
-        double delItem = stack[--top];
+        var delItem = stack[--top];
         stack[top] = 0.0;
         return delItem;
     }
@@ -49,7 +49,7 @@ class ArrayStack {
     }
 
     public static void main(String[] args) {
-        ArrayStack stack = new ArrayStack();
+        var stack = new ArrayStack();
         double[] numbers = {1, 2, 3, 4, 5.0, -32.2, 3.2, 56.7, -1, 2};
         stack.top();
         System.out.print("\nStack: ");

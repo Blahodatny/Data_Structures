@@ -2,6 +2,7 @@ import list.LinkedList;
 import org.junit.jupiter.api.Test;
 
 import java.util.Random;
+import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,9 +11,8 @@ class TestLinkedList {
 
     @Test
     void testGetters() {
-        LinkedList list = new LinkedList();
-        for (int i = 0; i < QUANTITY; ++i)
-            list.add(Integer.toString(i * 3));
+        var list = new LinkedList();
+        IntStream.range(0, QUANTITY).mapToObj(i -> Integer.toString(i * 3)).forEach(list::add);
         assertEquals(10, list.size());
         assertEquals("3", list.next.get());
         assertEquals("1", list.get(0));
@@ -23,9 +23,8 @@ class TestLinkedList {
 
     @Test
     void testSetters() {
-        LinkedList list = new LinkedList();
-        for (int i = 0; i < QUANTITY; ++i)
-            list.add(Integer.toString(i * 3));
+        var list = new LinkedList();
+        IntStream.range(0, QUANTITY).mapToObj(i -> Integer.toString(i * 3)).forEach(list::add);
         assertEquals("1", list.set("24"));
         assertNull(list.set("ghgh"));
         assertEquals("24", list.set(0, "56"));
@@ -37,10 +36,9 @@ class TestLinkedList {
 
     @Test
     void testAddMethod() {
-        LinkedList list = new LinkedList();
-        final Random random = new Random();
-        for (int i = 0; i < QUANTITY; i++)
-            list.add(Integer.toString(random.nextInt() % 100 + 101));
+        var list = new LinkedList();
+        final var random = new Random();
+        IntStream.range(0, QUANTITY).mapToObj(i -> Integer.toString(random.nextInt() % 100 + 101)).forEach(list::add);
         assertFalse(list.add("gh"));
         assertFalse(list.add("-345"));
 
@@ -53,10 +51,9 @@ class TestLinkedList {
 
     @Test
     void testRemoveMethod() {
-        LinkedList list = new LinkedList();
-        final Random random = new Random();
-        for (int i = 0; i < QUANTITY; i++)
-            list.add(Integer.toString(random.nextInt() % 100 + 101));
+        var list = new LinkedList();
+        final var random = new Random();
+        IntStream.range(0, QUANTITY).mapToObj(i -> Integer.toString(random.nextInt() % 100 + 101)).forEach(list::add);
         assertEquals(list.get(list.size() - 1), list.remove(list.size() - 1));
         assertEquals(list.get(0), list.remove(0));
         assertEquals(list.get(1), list.remove(1));

@@ -2,6 +2,7 @@ import list.ArrayList;
 import org.junit.jupiter.api.Test;
 
 import java.util.Random;
+import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,10 +11,9 @@ class TestArrayList {
 
     @Test
     void testAddMethods() {
-        ArrayList list = new ArrayList();
-        final Random random = new Random();
-        for (int i = 0; i < QUANTITY; ++i)
-            list.add(Integer.toString(random.nextInt() % 100 + 101));
+        var list = new ArrayList();
+        final var random = new Random();
+        IntStream.range(0, QUANTITY).mapToObj(i -> Integer.toString(random.nextInt() % 100 + 101)).forEach(list::add);
         list.print();
         assertFalse(list.add("-345"));
         assertFalse(list.add("0"));
@@ -41,16 +41,15 @@ class TestArrayList {
 
     @Test
     void testRemoveMethods() {
-        ArrayList list = new ArrayList();
-        final Random random = new Random();
-        for (int i = 0; i < QUANTITY; ++i)
-            list.add(Integer.toString(random.nextInt() % 100 + 101));
+        var list = new ArrayList();
+        final var random = new Random();
+        IntStream.range(0, QUANTITY).mapToObj(i -> Integer.toString(random.nextInt() % 100 + 101)).forEach(list::add);
         System.out.println("\n");
         list.print();
 
         assertNull(list.remove(list.size()));
 
-        String temp = list.get(0);
+        var temp = list.get(0);
         assertEquals(temp, list.remove(0));
         System.out.print("Removing from 0 position: ");
         list.printElements();
@@ -69,8 +68,7 @@ class TestArrayList {
         System.out.print("Removing from last position: ");
         list.printElements();
 
-        for (int i = 0; i < QUANTITY; i++)
-            assertEquals(list.get(0), list.remove(0));
+        IntStream.range(0, QUANTITY).forEach(i -> assertEquals(list.get(0), list.remove(0)));
         list.print();
         assertTrue(list.isEmpty());
     }

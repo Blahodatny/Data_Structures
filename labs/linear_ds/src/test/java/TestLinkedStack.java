@@ -2,6 +2,7 @@ import org.junit.jupiter.api.Test;
 import stack.LinkedStack;
 
 import java.util.Random;
+import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -11,15 +12,14 @@ class TestLinkedStack {
 
     @Test
     void testPopPushMethods() {
-        LinkedStack stack = new LinkedStack();
-        final Random random = new Random();
-        for (int i = 0; i < QUANTITY; i++)
-            stack.push(random.nextInt(100));
+        var stack = new LinkedStack();
+        final var random = new Random();
+        IntStream.range(0, QUANTITY).map(i -> random.nextInt(100)).forEach(stack::push);
         stack.print();
 
         System.out.println("\nAfter removing all elements:\n");
-        int size = 9;
-        for (int i = 0; stack.size() != 0; i++) {
+        var size = 9;
+        for (var i = 0; stack.size() != 0; i++) {
             assertEquals(stack.top(), stack.pop());
             assertEquals(stack.size(), size--);
             if (!stack.isEmpty())

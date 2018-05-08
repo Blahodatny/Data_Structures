@@ -13,7 +13,7 @@ public class LinkedStack implements Stack {
 
     public int pop() {
         if (this.isEmpty()) throw new NullPointerException("Error in method this.pop().");
-        int item = top.data;
+        var item = top.data;
         top = top.next;
         return item;
     }
@@ -28,8 +28,8 @@ public class LinkedStack implements Stack {
     }
 
     public int size() {
-        int size = 0;
-        SLNode cur = this.top;
+        var size = 0;
+        var cur = this.top;
         while (cur != null) {
             cur = cur.next;
             size++;
@@ -38,9 +38,9 @@ public class LinkedStack implements Stack {
     }
 
     public void print() {
-        SLNode cur = this.top;
-        String[] str = new String[this.size()];
-        int i = 0;
+        var cur = this.top;
+        var str = new String[this.size()];
+        var i = 0;
         while (cur != null) {
             str[i] = Integer.toString(cur.data);
             cur = cur.next;
