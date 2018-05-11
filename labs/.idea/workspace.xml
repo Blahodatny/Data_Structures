@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490edf00-33e3-45ec-a5b4-a041dea254b3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/hashtable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/hashtable/HashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/hashtable/OAHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/hashtable/OAHashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/tasks/ArrayOfFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/tasks/ArrayOfFigures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/tasks/task1/Task1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/tasks/task1/Task1Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/tasks/task2/Task2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/tasks/task2/Task2Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/TestTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/TestTask1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/dynamic/TestAdding.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/dynamic/TestAdding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/dynamic/TestEmptyTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task1/dynamic/TestEmptyTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/TestTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/TestTask2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestAdding.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestAdding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestEmptyTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestEmptyTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestRehash.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestRehash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/test/java/tests/task2/dynamic/TestRemove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/deque/ArrayDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/deque/ArrayDeque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/list/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/list/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/list/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/list/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/list/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/queue/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/queue/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/queue/LinkedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/stack/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/stack/LinkedStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/test/java/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/test/java/TestArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/test/java/TestArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/test/java/TestArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/test/java/TestDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/test/java/TestDoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/test/java/TestLinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/test/java/TestLinkedStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/src/main/java/FileAssistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/src/main/java/FileAssistant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/src/main/java/list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/src/main/java/list/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/src/test/java/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/src/test/java/TestLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/lab_maven/target/" />
     <ignored path="$PROJECT_DIR$/maven/target/" />
@@ -73,62 +41,7 @@
     <favorites_list name="labs" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileAssistant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/FileAssistant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1794">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestLinkedList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linked_list/src/test/java/TestLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1352">
-              <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/list/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="156" column="29" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DLNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/node/DLNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SLNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/node/SLNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -226,19 +139,12 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="linear_ds" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="linear_ds" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
@@ -255,6 +161,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,58 +169,10 @@
               <item name="labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="linked_list" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,27 +212,27 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Derby (Embedded)" />
     <property name="jdk.selected.JAVA_MODULE" value="9.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Design_Patterns/patterns" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.49107143" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/behaviour-driven_testing/src/main/java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/behaviour-driven_testing/src/test/resources" />
       <recent name="$PROJECT_DIR$/behaviour-driven_testing/src/test/java" />
       <recent name="$PROJECT_DIR$/behaviour-driven_testing" />
       <recent name="$PROJECT_DIR$/bdt/src/main/java/antlr" />
       <recent name="$PROJECT_DIR$/bdt" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/behaviour-driven_testing/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -586,14 +445,19 @@
       <workItem from="1525469132468" duration="635000" />
       <workItem from="1525476579061" duration="1553000" />
       <workItem from="1525684634403" duration="1092000" />
-      <workItem from="1525802506890" duration="1434000" />
+      <workItem from="1525802506890" duration="2083000" />
+      <workItem from="1525814200624" duration="91000" />
+      <workItem from="1525814788920" duration="335000" />
+      <workItem from="1525815193322" duration="142000" />
+      <workItem from="1525815414456" duration="124000" />
+      <workItem from="1525926604086" duration="18000" />
+      <workItem from="1525956695761" duration="1610000" />
+      <workItem from="1525963403117" duration="49000" />
+      <workItem from="1526041585513" duration="383000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArrayList - 2018.05.02 at 19h 42m 05s.xml">
-      <configuration name="TestArrayList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestArrayList - 2018.05.02 at 19h 44m 00s.xml">
       <configuration name="TestArrayList" configurationId="JUnit" />
     </history-entry>
@@ -621,9 +485,12 @@
     <history-entry file="TestDoublyLinkedList_testDoublyLinkedList - 2018.05.08 at 21h 19m 12s.xml">
       <configuration name="TestDoublyLinkedList.testDoublyLinkedList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestLinkedList - 2018.05.08 at 21h 25m 45s.xml">
+      <configuration name="TestLinkedList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266798000" />
+    <option name="totallyTimeSpent" value="270199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,33 +503,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Tool Output" order="7" weight="0.22645503" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.10885417" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="9" weight="0.25714287" />
-      <window_info id="Structure" order="1" sideWeight="0.5005291" side_tool="true" weight="0.12916666" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32910052" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.114285715" />
+      <window_info anchor="bottom" id="Tool Output" order="7" weight="0.22645503" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.10885417" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14603175" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21481481" />
       <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994709" visible="true" weight="0.12916666" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="9" weight="0.25714287" />
       <window_info id="Learn" order="2" />
+      <window_info id="Structure" order="1" sideWeight="0.5005291" side_tool="true" weight="0.12916666" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5005291" side_tool="true" weight="0.12916666" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.114285715" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -758,9 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,9 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1638">
           <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,9 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1118">
           <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/FileAssistant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1794">
@@ -998,6 +848,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1352">
           <caret line="58" column="50" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_list/src/main/java/FileAssistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
