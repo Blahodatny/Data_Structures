@@ -2,79 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="490edf00-33e3-45ec-a5b4-a041dea254b3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_opencsv_opencsv_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_opencsv_opencsv_4_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/hash_table.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/hash_table.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/hashtable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/hashtable/HashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/hashtable/OAHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/hashtable/OAHashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/rectangle/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/rectangle/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash_table/src/main/java/tasks/ArrayOfFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash_table/src/main/java/tasks/ArrayOfFigures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/linear_ds.iml" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/linear_ds.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_ds/src/main/java/queue/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/linear_ds/src/main/java/queue/LinkedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/linked_list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/linked_list.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/src/main/java/list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/src/main/java/list/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/man/child/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/man/teen/idea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/abstract_factory/theory/abstractfactory-pattern-slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/abstract_factory/theory/definition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/abstract_factory/theory/generals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/builder/theory/builder-pattern-slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/builder/theory/definition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/builder/theory/generals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/factory_method/theory/definition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/factory_method/theory/factory-method-pattern-slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/factory_method/theory/generals1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/factory_method/theory/generals2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/prototype/theory/definition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/prototype/theory/generals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/prototype/theory/prototype-pattern-slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/singleton/theory/definition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/singleton/theory/generals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/creational/singleton/theory/singleton-pattern-slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/adapter/theory/2-design-patterns-java-structural-m2-slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/adapter/theory/definition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/adapter/theory/generals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/bridge/theory/3-design-patterns-java-structural-m3-slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/bridge/theory/definition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/bridge/theory/generals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/composite/theory/4-design-patterns-java-structural-m4-slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/composite/theory/definition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/composite/theory/generals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/decorator/theory/5-design-patterns-java-structural-m5-slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/decorator/theory/definition.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/decorator/theory/generals.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/facade/theory/6-design-patterns-java-structural-m6-slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/facade/theory/definition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/facade/theory/generals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/flyweight/theory/7-design-patterns-java-structural-m7-slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/flyweight/theory/definition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/flyweight/theory/generals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/proxy/theory/8-design-patterns-java-structural-m8-slides.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/proxy/theory/definition.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/patterns/structural/proxy/theory/generals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/woman/child/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/woman/teen/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sorting_algorithms/students.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/parametrized_tests/CorrectStrings.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/parametrized_tests/InCorrectStrings.csv" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/lab_maven/target/" />
     <ignored path="$PROJECT_DIR$/maven/target/" />
@@ -112,9 +41,10 @@
     <session id="-808604758">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -384,7 +314,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Sorting_algorithms/sorting_algorithms" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.49107143" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
@@ -586,6 +516,7 @@
       <workItem from="1525963403117" duration="49000" />
       <workItem from="1526041585513" duration="383000" />
       <workItem from="1540242936319" duration="1235000" />
+      <workItem from="1540244305128" duration="53000" />
     </task>
     <servers />
   </component>
@@ -622,7 +553,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271434000" />
+    <option name="totallyTimeSpent" value="271487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,7 +567,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994709" visible="true" weight="0.1307364" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994709" visible="true" weight="0.13233724" />
       <window_info id="Structure" order="1" sideWeight="0.5005291" side_tool="true" weight="0.12916666" />
       <window_info id="Learn" order="2" />
       <window_info id="Designer" order="3" />
@@ -699,10 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,10 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2434">
           <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-          <folding>
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,7 +974,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1063,7 +986,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>linear_ds</last-edited>
+          <last-edited>hash_table</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1088,7 +1011,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.opencsv:opencsv:4.1</last-edited>
+          <last-edited>Maven: com.opencsv:opencsv:4.3.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
