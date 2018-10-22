@@ -19,10 +19,7 @@ public class LinkedList {
     }
 
     private LinkedList(String e) {
-        if (isInValid(e))
-            data = "1";
-        else
-            data = e;
+        data = isInValid(e) ? "1" : e;
         next = null;
     }
 

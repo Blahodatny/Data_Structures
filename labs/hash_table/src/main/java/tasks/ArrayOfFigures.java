@@ -24,12 +24,9 @@ public class ArrayOfFigures {
 
     private static Rectangle writeRectangleInfo(String[] line) {
         if (line.length != QUANTITY) {
-            if (line.length < QUANTITY)
-                System.err.println("Error: the line  \"" + Arrays.toString(line)
-                        + "\" not completed.");
-            else
-                System.err.println("Error: the line  \"" + Arrays.toString(line)
-                        + "\" is overcrowded.");
+            System.err.println(line.length < QUANTITY ? "Error: the line  \"" + Arrays.toString(line)
+                    + "\" not completed." : "Error: the line  \"" + Arrays.toString(line)
+                    + "\" is overcrowded.");
             return null;
         }
 

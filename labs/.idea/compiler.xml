@@ -17,9 +17,9 @@
       <module name="behaviour-driven_testing" target="10" />
       <module name="empirical_analysis" target="10" />
       <module name="exam" target="1.5" />
-      <module name="hash_table" target="10" />
-      <module name="linear_ds" target="10" />
-      <module name="linked_list" target="10" />
+      <module name="hash_table" target="11" />
+      <module name="linear_ds" target="11" />
+      <module name="linked_list" target="11" />
       <module name="maven" target="10" />
     </bytecodeTargetLevel>
   </component>

@@ -98,12 +98,8 @@ public class OAHashTable implements FigureSet {
     }
 
     public void print() {
-        IntStream.range(0, table.length).forEach(i -> {
-            if (table[i] != null)
-                System.out.println(i + " || " + table[i].toString());
-            else
-                System.out.println(i + " || The slot is empty!");
-        });
+        IntStream.range(0, table.length)
+                .forEach(i -> System.out.println(table[i] != null ? i + " || " + table[i].toString() : i + " || The slot is empty!"));
     }
 }
 

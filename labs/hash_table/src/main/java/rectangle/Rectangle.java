@@ -17,9 +17,7 @@ public class Rectangle {
     }
 
     public int hashCode() {
-        if (hash == 0)
-            return 31 * vertex1.hashCode() * vertex2.hashCode();
-        return hash;
+        return hash == 0 ? 31 * vertex1.hashCode() * vertex2.hashCode() : hash;
     }
 
     public String toString() {
@@ -28,8 +26,7 @@ public class Rectangle {
     }
 
     public boolean equals(Rectangle rectangle) {
-        if (rectangle == null) return false;
-        return vertex1.equals(rectangle.vertex1) &&
+        return rectangle != null && vertex1.equals(rectangle.vertex1) &&
                 vertex2.equals(rectangle.vertex2) &&
                 hashCode() == rectangle.hashCode();
     }

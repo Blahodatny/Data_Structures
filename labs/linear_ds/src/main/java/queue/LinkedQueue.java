@@ -26,8 +26,7 @@ class LinkedQueue {
     }
 
     private boolean isCorrectData(String item) {
-        if (item.equals("")) return false;
-        return IntStream.range(0, item.length()).noneMatch(i -> "01234567".indexOf(item.charAt(i)) == -1);
+        return !item.equals("") && IntStream.range(0, item.length()).noneMatch(i -> "01234567".indexOf(item.charAt(i)) == -1);
     }
 
     public boolean isEmpty() {
