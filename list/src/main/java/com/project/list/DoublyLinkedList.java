@@ -12,19 +12,32 @@ public class DoublyLinkedList<E> {
 
     public void addFirst(E item) {
         head = new Node<>(null, item, head);
-        head.next.prev = head;
+        if (head.next != null)
+            head.next.prev = head;
     }
 
     public void add(E item) {
+        if (head == null)
+            addFirst(item);
 
+        var cur = head;
+        while (cur.next != null)
+            cur = cur.next;
+
+        cur.next = new Node<>(cur, item, null);
     }
 
-    private static class Node<E> extends SinglyLinkedList.Node<E> {
+    public void delete(Node<E> node) {
+        node.next.prev = node.prev;
+        node.prev.next = node.next;
+    }
+
+    private static class Node<E> extends SinglyLinkedList.Item<E> {
         private Node<E> prev;
         private Node<E> next;
 
-        private Node(Node<E> prev, E element, Node<E> next) {
-            super(element);
+        private Node(Node<E> prev, E item, Node<E> next) {
+            super(item);
             this.prev = prev;
             this.next = next;
         }
