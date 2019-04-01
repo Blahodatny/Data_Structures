@@ -1,5 +1,7 @@
 package com.project.list;
 
+import com.project.list.singlyLinkedList.Node;
+
 public class SinglyLinkedList<E> {
     private Node<E> head;
 
@@ -12,22 +14,5 @@ public class SinglyLinkedList<E> {
 
     public void addFirst(E node) {
         head = new Node<>(node, head);
-    }
-
-    static class Item<E> {
-        E item;
-
-        Item(E item) {
-            this.item = item;
-        }
-    }
-
-    private static class Node<E> extends Item<E> {
-        private Node<E> next;
-
-        private Node(E element, Node<E> next) {
-            super(element);
-            this.next = next;
-        }
     }
 }
