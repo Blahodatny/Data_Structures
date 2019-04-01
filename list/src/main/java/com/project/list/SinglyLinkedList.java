@@ -1,12 +1,11 @@
 package com.project.list;
 
 import java.util.Objects;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class SinglyLinkedList<E> {
     private Node<E> head;
-
-    public SinglyLinkedList() {
-    }
 
     public SinglyLinkedList(E head) {
         this.head = new Node<>(head, null);
@@ -14,6 +13,21 @@ public class SinglyLinkedList<E> {
 
     public void addFirst(E node) {
         head = new Node<>(node, head);
+    }
+
+    public void add(E node) {
+
+    }
+
+    public int size() {
+        return (int) Stream.iterate(head, Objects::nonNull, cur -> cur.next).count();
+    }
+
+    public String toString() {
+        return Stream
+                .iterate(head, Objects::nonNull, cur -> cur.next)
+                .map(cur -> cur.item + " ")
+                .collect(Collectors.joining("", "List: [ ", "]"));
     }
 
     private static class Node<E> {
