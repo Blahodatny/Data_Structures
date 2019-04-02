@@ -36,12 +36,15 @@ class TestList {
     @DisplayName("Test List!!!")
     void test() {
         var dList = new DoublyLinkedList<Integer>();
-        dList.delete(SIZE);
+
+        assertNull(dList.delete(SIZE));
+
         Arrays.stream(ARRAY, 0, SIZE).forEach(dList::add);
         System.out.println(dList);
 
         assertEquals(SIZE, dList.size());
-        dList.delete(0);
+
+        dList.addFirst(dList.delete(0));
 
         assertNull(dList.get(-1));
         assertNull(dList.get(SIZE + 1));

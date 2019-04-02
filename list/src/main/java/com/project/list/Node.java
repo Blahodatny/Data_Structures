@@ -6,14 +6,14 @@ public abstract class Node<E> {
     private E item;
     private Node<E> next;
 
-    public Node<E> getPrev() {
+    protected Node<E> getPrev() {
         return null;
     }
 
     public void setPrev(Node<E> prev) {
     }
 
-    final E getItem() {
+    public final E getItem() {
         return item;
     }
 

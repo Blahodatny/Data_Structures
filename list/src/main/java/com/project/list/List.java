@@ -27,8 +27,8 @@ public abstract class List<E> {
     public E get(int index) {
         if (index < 0)
             return null;
-        var count = 0;
 
+        var count = 0;
         for (var cur = head; cur != null; cur = cur.getNext())
             if (count++ == index)
                 return cur.getItem();

@@ -17,21 +17,21 @@ public class DoublyLinkedList<E> extends List<E> {
             head.getNext().setPrev(head);
     }
 
-    private void delete(DNode<E> node) {
-        if (head == null)
-            return;
+    private E delete(DNode<E> node) {
         if (head.equals(node))
             head = node.getNext();
         if (node.getNext() != null)
             node.getNext().setPrev(node.getPrev());
         if (node.getPrev() != null)
             node.getPrev().setNext(node.getNext());
+        return node.getItem();
     }
 
-    public void delete(int position) {
+    public E delete(int position) {
         var i = 0;
         for (var cur = head; cur != null; cur = cur.getNext())
             if (i++ == position)
-                delete((DNode<E>) cur);
+                return delete((DNode<E>) cur);
+        return null;
     }
 }
