@@ -24,6 +24,18 @@ public abstract class List<E> {
         cur.setNext(createNode(cur, item, null));
     }
 
+    public E get(int index) {
+        if (index < 0)
+            return null;
+        var count = 0;
+
+        for (var cur = head; cur != null; cur = cur.getNext())
+            if (count++ == index)
+                return cur.getItem();
+
+        return null;
+    }
+
     public int size() {
         return (int) Stream.iterate(head, Objects::nonNull, Node::getNext).count();
     }

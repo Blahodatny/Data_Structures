@@ -1,4 +1,5 @@
 import com.project.list.doubly.DoublyLinkedList;
+import com.project.list.singly.SinglyLinkedList;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -31,14 +32,27 @@ class TestList {
     }
 
     @Test
-    @DisplayName("Test")
+    @DisplayName("Test List!!!")
     void test() {
-        var dList = new DoublyLinkedList<>();
+        var dList = new DoublyLinkedList<Integer>();
         Arrays.stream(ARRAY, 0, SIZE).forEach(dList::add);
-        System.out.print(dList);
+        System.out.println(dList);
 
         assertEquals(SIZE, dList.size());
 
+        var sList = new SinglyLinkedList<Integer>();
+        for (var i = 0; i < dList.size(); i++) {
+            var cur = dList.get(i);
+            if (cur < -5 || cur > 5) {
+                dList.delete(i--);
+                if (cur % 2 == 0)
+                    sList.addFirst(cur);
+                else
+                    sList.add(cur);
+            }
+        }
 
+        System.out.println(dList);
+        System.out.println(sList);
     }
 }

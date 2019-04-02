@@ -4,10 +4,7 @@ import com.project.list.List;
 import com.project.list.Node;
 
 public class DoublyLinkedList<E> extends List<E> {
-    public DoublyLinkedList() {}
-
-    public DoublyLinkedList(E head) {
-        this.head = new DNode<>(null, head, null);
+    public DoublyLinkedList() {
     }
 
     public Node<E> createNode(Node<E> prev, E item, Node<E> next) {
