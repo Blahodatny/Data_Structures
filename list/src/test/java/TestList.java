@@ -9,6 +9,7 @@ import java.util.Random;
 import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 class TestList {
     private static final int SIZE = 15;
@@ -35,10 +36,15 @@ class TestList {
     @DisplayName("Test List!!!")
     void test() {
         var dList = new DoublyLinkedList<Integer>();
+        dList.delete(SIZE);
         Arrays.stream(ARRAY, 0, SIZE).forEach(dList::add);
         System.out.println(dList);
 
         assertEquals(SIZE, dList.size());
+        dList.delete(0);
+
+        assertNull(dList.get(-1));
+        assertNull(dList.get(SIZE + 1));
 
         var sList = new SinglyLinkedList<Integer>();
         for (var i = 0; i < dList.size(); i++) {
