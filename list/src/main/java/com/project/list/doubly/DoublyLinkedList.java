@@ -18,7 +18,7 @@ public class DoublyLinkedList<E> extends List<E> {
     }
 
     private E delete(DNode<E> node) {
-        if (head.equals(node))
+        if (head == node)
             head = node.getNext();
         if (node.getNext() != null)
             node.getNext().setPrev(node.getPrev());
