@@ -20,7 +20,7 @@ class FileWorker {
         try {
             var file = getFile(fileName);
             if (!file.exists())
-                System.out.println(file.createNewFile());
+                System.out.println("File was created: " + file.createNewFile());
             var csv = IntStream
                     .range(0, array.length - 1)
                     .mapToObj(i -> array[i] + ", ")

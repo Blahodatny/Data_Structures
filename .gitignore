@@ -24,6 +24,8 @@ hs_err_pid*
 
 .attach*
 
+list/src/test/resources/*
+
 target/
 pom.xml.tag
 pom.xml.releaseBackup
