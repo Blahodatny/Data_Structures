@@ -12,8 +12,10 @@ public abstract class List<E> {
     public abstract void addFirst(E item);
 
     public void add(E item) {
-        if (head == null)
+        if (head == null) {
             addFirst(item);
+            return;
+        }
 
         var cur = head;
         while (cur.getNext() != null)
@@ -29,7 +31,7 @@ public abstract class List<E> {
     public String toString() {
         return Stream
                 .iterate(head, Objects::nonNull, Node::getNext)
-                .map(cur -> cur.getItem() + " ")
-                .collect(Collectors.joining("", "List: [ ", "]"));
+                .map(cur -> cur.getItem() + ", ")
+                .collect(Collectors.joining("", "List: [ ", "\b\b ]"));
     }
 }

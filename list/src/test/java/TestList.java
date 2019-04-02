@@ -1,3 +1,4 @@
+import com.project.list.doubly.DoublyLinkedList;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -5,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.stream.IntStream;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TestList {
     private static final int SIZE = 15;
@@ -30,6 +33,12 @@ class TestList {
     @Test
     @DisplayName("Test")
     void test() {
-        System.out.print(Arrays.toString(ARRAY));
+        var dList = new DoublyLinkedList<>();
+        Arrays.stream(ARRAY, 0, SIZE).forEach(dList::add);
+        System.out.print(dList);
+
+        assertEquals(SIZE, dList.size());
+
+
     }
 }
