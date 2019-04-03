@@ -12,6 +12,7 @@
 
     <modules>
         <module>list</module>
+        <module>hash</module>
     </modules>
 
     <properties>
